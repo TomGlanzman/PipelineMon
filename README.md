@@ -1,5 +1,5 @@
 # PipelineMon
-Example for querying the SLAC Pipeline database and summarizing in a text format suitable for web display.  For the web display, this code depends on the publicly available 'tabulate' package.
+Example for querying the SLAC Pipeline database and summarizing in a text format suitable for web display.  For the web display, this code depends on the publicly available 'tabulate' package (https://pypi.org/project/tabulate/), which should be in the same directory as the PipelineMon script, or in your PYTHONPATH.
 
 This example queries the Pipeline database for the 12 workflow tasks that constitute the DESC DC2 Run 1.2p project.  Each workflow corresponds to either the wide-field deep (WFD) or the ultra deep-drilling field (uDDF), then separate workflow for the six optical filters {u,g,r,i,z,y}.  The output of the example is stored in my SLAC public html directory and can be viewed here: https://www.slac.stanford.edu/~dragon/DESC/DC2mon.html
 
